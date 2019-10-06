@@ -1,0 +1,29 @@
+html, body, div, ul, li, dl, dt, dd, div, h1, h2, h3, h4, h5, h6, section, header, footer, p, button {margin:0; padding:0; font-family:Montserrat Alternates, NotoSansKR; font-size:16px; line-height:120%; color:#555;}
+
+ul, li {list-style:none;}
+
+a {display:block; text-decoration:none;}
+a:hover {text-decoration:none;}
+img {display:block; width:100%;}
+em {font-style:normal;}
+span {display:block;}
+* {box-sizing: border-box;}
+
+/* 공통 클래스 */
+.c_aln_v {vertical-align:middle;}
+.c_txt {letter-spacing:1px;}
+.c_disn_im {display:none !important;}
+.c_disn {display:none;}
+.c_disb {display:block;}
+.c_disin {display:inline-block;}
+.c_disf {display:flex; width:100%;}
+.c_abs {position:absolute;}
+.c_rel {position:relative;}
+.c_fix {position:fixed;}
+.c_ofh {overflow:hidden;}
+.c_lf {float:left;}
+.c_rf {float:right;}
+.c_clear:after {content:""; display:block; clear:both;}
+.c_container {width:100%; max-width:1200px; margin:0 auto; padding: 0 15px;}
+
+.c_sec_tit {text-transform:uppercase;}
